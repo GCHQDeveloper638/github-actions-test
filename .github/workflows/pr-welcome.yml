@@ -1,7 +1,7 @@
 name: Welcome new contributors to the repo
 
 on:
-  issues:
+  pull_request_target:
     types:
       - opened
 
